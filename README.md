@@ -2,8 +2,8 @@
 
 Este es el código fuente de los videos sobre la integración de Vuex en Nuxt, van a ser 3-4 ejemplos básicos, de momento el código del primero lo puedes encontrar en este commit:
 
-    * [Ejemplo básico](https://github.com/antonrodin/vuex-nuxt/tree/2f99a1469cad1040f319deb3f7d1fe823fdb49c4)
-    * Continuara...
+* [Ejemplo básico](https://github.com/antonrodin/vuex-nuxt/tree/2f99a1469cad1040f319deb3f7d1fe823fdb49c4)
+* Continuara...
 
 ## Build Setup (NuxtJS)
 
