@@ -16,6 +16,16 @@ export const getters = {
 // A diferencia de las mutaciones pueden ser asincornas (llamadas a las APIs)
 // Pueden contener algo de logica de negocio y ademas pueden llamar a varias mutaciones
 export const actions = {
+
+    /**
+     * Esta funcion se ejecuta al inicializarse la APP
+     * @param {*} vuexContext commit, dispatch, state
+     * @param {*} context es el mismo de asyncData y aqui tenemos acceso a toda la app: app, $axios, env, store
+     */
+    async nuxtServerInit({ dispatch }, context) {
+        await dispatch('posts/loadPosts');
+    },
+
     sumarDos({ commit }) {
         commit('increment');
         commit('increment');

@@ -20,6 +20,9 @@ export const actions = {
 export const getters = {
     getPosts(state) {
         return state._posts
+    },
+    getTotal(state) {
+        return state._posts.length
     }
 }
 
